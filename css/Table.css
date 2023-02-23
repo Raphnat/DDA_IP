@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    /* -- THIS IS TO MAKE THE BACKGROUND STRETCH*/
+    background-image:url(../img/4.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.button{
+    background-color: rgb(33, 33, 33);
+    color: white;
+    border:3px solid rgb(255, 255, 255) ;
+    content: "";
+    position: absolute;
+    width: calc(13% - 6px);
+    height: calc(8% - 6px);
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+
